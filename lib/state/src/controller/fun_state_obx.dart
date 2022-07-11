@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
-import 'package:pull_to_refresh/pull_to_refresh.dart';
+import 'package:pull_to_refresh_flutter3/pull_to_refresh_flutter3.dart';
 import 'fun_state_list_refresher_controller.dart';
 import 'fun_state_mixin.dart';
 
@@ -31,6 +31,7 @@ class FunStateObx extends StatelessWidget {
       builder,
       onEmpty: onEmpty,
       onLoading: onLoading,
+
       /// 错误
       onError: onError,
     );
@@ -86,4 +87,3 @@ class FunStateRefresherObx<T> extends StatelessWidget {
     );
   }
 }
-
